@@ -1,0 +1,12 @@
+Source: ros-galactic-ros-image-to-qimage
+Section: misc
+Priority: optional
+Maintainer: ijnek <kenjibrameld@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-galactic-ament-cmake, ros-galactic-ament-lint-auto, ros-galactic-ament-lint-common, ros-galactic-cv-bridge, ros-galactic-sensor-msgs, ros-galactic-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-galactic-ros-image-to-qimage
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, qtbase5-dev, ros-galactic-cv-bridge, ros-galactic-sensor-msgs, ros-galactic-ros-workspace
+Description: TODO: Package description
